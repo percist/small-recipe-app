@@ -100,6 +100,16 @@ export default {
       title: "Instructions",
       type: "array",
       of: [{ type: "block" }],
+    },
+    {
+      name: "likes",
+      title: "Likes",
+      type: "number",
     }
-  ]
+  ], 
+  
+  initialValue: {
+    likes: 0,
+  },
+  
 }
