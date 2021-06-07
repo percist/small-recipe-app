@@ -1,3 +1,11 @@
+This small recipe app uses Next.js as a framework to serve up a React frontend from a backend hosted on the CMS Sanity. Sanity uses a proprietary noSQL query language GROQ to fetch data from the CMS.
+
+Features include:
+- AJAX requests to update 'likes'
+- Dynamic slugs to render each recipe
+- Realtime previews of updated data in the CMS before publishing
+- Live deployment to Vercel
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
